@@ -18,6 +18,12 @@
       </categories>
       
       
+        <tags>
+            
+            <tag> 个人日记 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -36,6 +42,12 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+        </tags>
       
     </entry>
     
@@ -56,6 +68,12 @@
       </categories>
       
       
+        <tags>
+            
+            <tag> 玩转Win10 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -75,6 +93,12 @@
       </categories>
       
       
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -87,6 +111,18 @@
         <content type="html"><![CDATA[<h2 id="这是我的第一篇文章"><a href="#这是我的第一篇文章" class="headerlink" title="这是我的第一篇文章"></a>这是我的第一篇文章</h2>]]></content>
       
       
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
       
     </entry>
     
