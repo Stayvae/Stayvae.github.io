@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>第二篇文章</title>
+      <link href="/2024/03/27/2024-3-13%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/2024/03/27/2024-3-13%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="这是我的第二篇文章"><a href="#这是我的第二篇文章" class="headerlink" title="这是我的第二篇文章"></a>这是我的第二篇文章</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第一篇文章</title>
+      <link href="/2024/03/27/2024-3-10%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/2024/03/27/2024-3-10%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="这是我的第一篇文章"><a href="#这是我的第一篇文章" class="headerlink" title="这是我的第一篇文章"></a>这是我的第一篇文章</h2><div class="note default simple"><p>内容++++++</p></div><div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>时间轴样式</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2020-07-24 <a href="https://github.com/volantis-x/hexo-theme-volantis/releases">2.6.6 -&gt; 3.0</a></p></div></div><div class='timeline-item-content'><ol><li>如果有 <code>hexo-lazyload-image</code> 插件，需要删除并重新安装最新版本，设置 <code>lazyload.isSPA: true</code>。</li><li>2.x 版本的 css 和 js 不适用于 3.x 版本，如果使用了 <code>use_cdn: true</code> 则需要删除。</li><li>2.x 版本的 fancybox 标签在 3.x 版本中被重命名为 gallery 。</li><li>2.x 版本的置顶 <code>top: true</code> 改为了 <code>pin: true</code>，并且同样适用于 <code>layout: page</code> 的页面。</li><li>如果使用了 <code>hexo-offline</code> 插件，建议卸载，3.0 版本默认开启了 pjax 服务。</li></ol></div></div></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>个人日记篇</title>
       <link href="/2024/03/13/%E4%B8%AA%E4%BA%BA%E6%97%A5%E8%AE%B0%E7%AF%87/"/>
       <url>/2024/03/13/%E4%B8%AA%E4%BA%BA%E6%97%A5%E8%AE%B0%E7%AF%87/</url>
@@ -71,56 +121,6 @@
         <tags>
             
             <tag> 玩转Win10 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>第二篇文章</title>
-      <link href="/2024/03/13/2024-3-13%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-      <url>/2024/03/13/2024-3-13%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/</url>
-      
-        <content type="html"><![CDATA[<h2 id="这是我的第二篇文章"><a href="#这是我的第二篇文章" class="headerlink" title="这是我的第二篇文章"></a>这是我的第二篇文章</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> Hexo </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>第一篇文章</title>
-      <link href="/2024/03/10/2024-3-10%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-      <url>/2024/03/10/2024-3-10%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
-      
-        <content type="html"><![CDATA[<h2 id="这是我的第一篇文章"><a href="#这是我的第一篇文章" class="headerlink" title="这是我的第一篇文章"></a>这是我的第一篇文章</h2><div class="note default simple"><p>内容++++++</p></div><div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>时间轴样式</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2020-07-24 <a href="https://github.com/volantis-x/hexo-theme-volantis/releases">2.6.6 -&gt; 3.0</a></p></div></div><div class='timeline-item-content'><ol><li>如果有 <code>hexo-lazyload-image</code> 插件，需要删除并重新安装最新版本，设置 <code>lazyload.isSPA: true</code>。</li><li>2.x 版本的 css 和 js 不适用于 3.x 版本，如果使用了 <code>use_cdn: true</code> 则需要删除。</li><li>2.x 版本的 fancybox 标签在 3.x 版本中被重命名为 gallery 。</li><li>2.x 版本的置顶 <code>top: true</code> 改为了 <code>pin: true</code>，并且同样适用于 <code>layout: page</code> 的页面。</li><li>如果使用了 <code>hexo-offline</code> 插件，建议卸载，3.0 版本默认开启了 pjax 服务。</li></ol></div></div></div>]]></content>
-      
-      
-      <categories>
-          
-          <category> Hexo </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Hexo </tag>
             
         </tags>
       
