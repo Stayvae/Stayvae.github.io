@@ -4,7 +4,7 @@ $.ajax({
     type: 'get',
     url: 'https://apis.map.qq.com/ws/location/v1/ip',
     data: {
-      key: 'FUDBZ-KGOKL-Z6VPQ-MQVLG-6A5DV-7GFRX',  // 这里要写你的KEY!!!
+      key: 'HB2BZ-QLTLB-ELPUX-JQE4X-B7C6T-T6FA4',  // 这里要写你的KEY!!!
       output: 'jsonp',
     },
     dataType: 'jsonp',
@@ -32,14 +32,14 @@ $.ajax({
   
   function showWelcome() {
   
-    let dist = getDistance(113.34499552, 23.15537143, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
+    let dist = getDistance(108.33, 22.84, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
     let pos = ipLoacation.result.ad_info.nation;
     let ip;
     let posdesc;
     //根据国家、省份、城市信息自定义欢迎语
     switch (ipLoacation.result.ad_info.nation) {
       case "日本":
-        posdesc = "よろしく，一起去看樱花吗";
+        posdesc = "";
         break;
       case "美国":
         posdesc = "Let us live in peace!";
@@ -91,7 +91,7 @@ $.ajax({
             posdesc = "很喜欢哈尔滨大剧院。";
             break;
           case "上海市":
-            posdesc = "众所周知，中国只有两个城市。";
+            posdesc = "上海是中国的一座直辖市，也是中国最繁华的城市之一。";
             break;
           case "江苏省":
             switch (ipLoacation.result.ad_info.city) {
@@ -100,9 +100,6 @@ $.ajax({
                 break;
               case "苏州市":
                 posdesc = "上有天堂，下有苏杭。";
-                break;
-              default:
-                posdesc = "散装是必须要散装的。";
                 break;
             }
             break;
@@ -150,7 +147,7 @@ $.ajax({
             posdesc = "74751，长沙斯塔克。";
             break;
           case "广东省":
-            posdesc = "老板来两斤福建人。";
+            posdesc = "广东省,以岭南东道、广南东路得名,简称“粤”,省会广州,。";
             break;
           case "广西壮族自治区":
             posdesc = "桂林山水甲天下。";
